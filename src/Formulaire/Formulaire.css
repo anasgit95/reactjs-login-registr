@@ -1,0 +1,65 @@
+.Essayer {
+    padding-top: 2%;
+    margin-top: 50px;
+    border-radius: 2%; 
+   
+    width: 500px;
+    height: 400px;
+    margin: 100px auto ;
+    background-color : #f4f4f4 ;
+}
+.Essayer span {
+     font-weight: lighter;
+     font-size: 60%;
+     color: red;
+}
+.essaye::placeholder {
+    padding-left:5px;
+     font-weight: bold;
+    font-style: oblique;
+    color :red ;
+    
+}
+.bold::placeholder {
+    padding-left: 20px;  
+
+    color :rgb(116, 111, 111); 
+}
+.Essayer label {
+    color : black; 
+    font-weight: bold;
+}
+.Essayer input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 400px;
+   font-weight: bold;
+   padding-left:5px;
+    
+}
+
+p{
+font-weight: bold;
+font-style: oblique;
+}
+button {
+    font-weight:bold  ;
+    font-style: italic;
+    margin-top: 20px;
+    height: 40px;
+    background-color:#00b241;
+    color :white ;
+    width : 300px; 
+}
+@media only screen and (max-width: 515px) {
+    
+    .Essayer {
+      width :300px ;
+    }
+    .Essayer input {
+       
+        width: 150px;
+     
+        
+    }
+  }
